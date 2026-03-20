@@ -21,15 +21,15 @@ Why I think this fits me:
 ---
 
 ## 💻 TryHackMe / Hack The Box
-- Platform:
-- Room Name:
+- Platform: TryHackMe
+- Room Name: Hydra
 
 ### 🧠 What I Learned
-- 
-- 
+- Hydra is a password brute-forcing tool used to crack login credentials.
+- It supports multiple protocols like SSH, FTP, HTTP, etc.
 
 ### 📸 Proof
-(Add screenshot here later)
+![Hydra Room Completion](./image.png)
 
 ---
 
