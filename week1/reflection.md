@@ -84,32 +84,34 @@ I realized that ffuf is not just about brute-forcing directories, but about syst
 
 ## 🤖 AI Learning
 ### ❓ Question I asked:
--
+- Why do banks still use 4-digit PINs when they are considered weak?
 
 ### 💡 What I understood:
--
+-I learned that a 4-digit PIN is not meant to be secure on its own, but as part of a larger security system. Banks rely on multiple layers such as limited login attempts (rate limiting), physical possession of the card, and secure hardware like EMV chips and HSMs that prevent offline brute-force attacks.
+- Even though the total number of PIN combinations is small, attackers usually get only a few attempts (typically 3), making brute-force practically impossible.
+- Additionally, banks use monitoring systems to detect suspicious activity, so even a correct PIN does not guarantee success.
+- I also understood that increasing PIN complexity could reduce usability, leading users to adopt insecure behaviors like writing it down. So, banks balance security and usability by keeping the PIN simple while strengthening the surrounding system.
 
 ---
 
 ## ⚠️ Challenges Faced
--
--
+- At the beginning, I did not fully understand how ffuf actually identifies valid results. I was only running commands without understanding what response size filtering or status code filtering really meant.
+- While working on the Hydra room, I understood the concept of brute forcing, but I still felt like I was just following steps instead of thinking like an attacker.
+- I also realized that many tools look simple on the surface, but understanding what they actually do in real-world scenarios is much harder than expected.
 
 ---
 
 ## 💡 How I Solved Them
--
--
+- Instead of just running commands, I tried to understand what happens after every request is sent (status code, response length, filtering logic). This helped me understand how fuzzing actually works instead of blindly using the tool.
+- I slowed down while learning instead of rushing to complete the room quickly.
 
 ---
 
 ## 🔍 Key Takeaways
--
--
--
 
+- Tools are easy to run but hard to understand deeply. Real learning starts only after understanding what the tool is doing internally.
+- Fuzzing is not just brute forcing directories — it is about analyzing how a system reacts to different inputs.
+- I realized that my learning style is more about understanding first and then implementing, which matches the “Scholar” mindset.
+- Instead of trying to learn many tools quickly, it is better to go deep into one tool and understand it completely.
+- Real cybersecurity learning requires patience, not speed.
 ---
-
-## 🚀 Next Week Plan
--
--
