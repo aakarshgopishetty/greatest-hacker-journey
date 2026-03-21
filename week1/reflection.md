@@ -79,7 +79,7 @@ Output:-
 - Test how applications handle unexpected or unknown inputs
 
 ### 💡 My Insight
-I realized that ffuf is not just about brute-forcing directories, but about systematically testing inputs and analyzing differences in server responses to identify hidden functionality.
+- I realized that ffuf is not just about brute-forcing directories, but about systematically testing inputs and analyzing differences in server responses to identify hidden functionality.
 ---
 
 ## 🤖 AI Learning
@@ -87,7 +87,7 @@ I realized that ffuf is not just about brute-forcing directories, but about syst
 - Why do banks still use 4-digit PINs when they are considered weak?
 
 ### 💡 What I understood:
--I learned that a 4-digit PIN is not meant to be secure on its own, but as part of a larger security system. Banks rely on multiple layers such as limited login attempts (rate limiting), physical possession of the card, and secure hardware like EMV chips and HSMs that prevent offline brute-force attacks.
+- I learned that a 4-digit PIN is not meant to be secure on its own, but as part of a larger security system. Banks rely on multiple layers such as limited login attempts (rate limiting), physical possession of the card, and secure hardware like EMV chips and HSMs that prevent offline brute-force attacks.
 - Even though the total number of PIN combinations is small, attackers usually get only a few attempts (typically 3), making brute-force practically impossible.
 - Additionally, banks use monitoring systems to detect suspicious activity, so even a correct PIN does not guarantee success.
 - I also understood that increasing PIN complexity could reduce usability, leading users to adopt insecure behaviors like writing it down. So, banks balance security and usability by keeping the PIN simple while strengthening the surrounding system.
